@@ -1,0 +1,53 @@
+.page-footer {
+  background: rgb(229, 230, 231);
+  padding-top: 3em;
+  padding-bottom: 2em;
+  padding-left: 10rem;
+  display: flex;
+}
+
+.foot-div {
+  width: 50%;
+}
+
+.copy-right {
+  color: rgb(142, 142, 142);
+  margin-bottom: 3rem;
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.usa-addr {
+  border-right: 1px solid rgb(151, 151, 151);
+  width: 40%;
+}
+
+.mex-addr {
+  padding-left: 3rem;
+  width: 40%;
+}
+
+.foot-link {
+  color: rgb(142, 142, 142);
+
+  text-decoration: none;
+  padding: 0 1em;
+}
+
+.bord {
+  border-right: 2px solid rgb(216, 216, 216);
+}
+
+.foot-addr-div {
+  display: flex;
+}
+
+.tnc {
+  margin-top: 3em;
+  margin-left: 10.5em;
+  margin-bottom: 3em;
+}
+
+.social-media {
+  margin-left: 13em;
+}

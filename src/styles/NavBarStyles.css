@@ -1,0 +1,25 @@
+.nav-bar {
+  display: flex;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+}
+
+.nav-logo {
+  padding-top: 1.2em;
+  margin-left: 4em;
+  padding-bottom: 0.5em;
+}
+
+.nav-links {
+  margin-left: auto;
+  margin-right: 3em;
+  padding-top: 1.5em;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 1em;
+  font-size: 1.2em;
+}

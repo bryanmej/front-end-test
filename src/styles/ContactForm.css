@@ -1,0 +1,59 @@
+.contact-container {
+  padding-top: 1.5em;
+}
+
+.required {
+  color: rgb(255, 108, 0);
+  margin-left: 32em;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2em;
+}
+
+.bullet {
+  height: 25px;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+
+.input {
+  width: 16em;
+  font-size: 1em;
+  height: 3em;
+  border: 2px solid #ced4da;
+  border-radius: 0.1rem;
+  margin-right: 2.5em;
+}
+
+.contact-label {
+  display: block;
+  color: #495057;
+  margin-right: 20.5em;
+}
+
+.textarea {
+  flex-flow: column;
+  align-items: center;
+}
+
+.area-input {
+  border: 2px solid #ced4da;
+  border-radius: 0.1rem;
+  width: 39.4%;
+  height: 9.45em;
+  margin-right: 1em;
+}
+
+.submit-btn {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 108, 0);
+  padding: 0.3rem 1rem;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-style: none;
+  margin-left: 27em;
+  margin-top: 2em;
+}

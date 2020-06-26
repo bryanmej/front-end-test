@@ -1,0 +1,24 @@
+.place-title {
+  display: inline;
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+
+.place-div {
+  margin-top: 1em;
+}
+
+.place-address {
+  margin: 0.5em;
+  color: rgb(166, 167, 168);
+}
+
+.left {
+  margin-left: 0.5em;
+}
+
+.place-description {
+  margin-top: 0;
+  font-size: 1.3em;
+  padding-right: 0.4em;
+}

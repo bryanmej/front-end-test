@@ -1,0 +1,30 @@
+.addr-country {
+  display: inline;
+  font-size: 1em;
+  color: rgb(117, 117, 117);
+}
+
+.country-icon {
+  width: 34px;
+  height: 19px;
+  margin-right: 0.5rem;
+}
+
+.footer-text {
+  color: rgb(140, 140, 140);
+  padding-right: 1rem;
+}
+
+.footer-tnc {
+  color: rgb(142, 142, 142);
+  text-decoration: none;
+}
+
+.terms {
+  border-right: 2px solid rgb(216, 216, 216);
+  padding-right: 1rem;
+}
+
+.policy {
+  padding-left: 1rem;
+}

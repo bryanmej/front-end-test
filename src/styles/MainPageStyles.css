@@ -1,0 +1,65 @@
+@font-face {
+  font-family: RobotoCondensed-Light;
+  src: url("../assets/fonts/RobotoCondensed-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: RobotoCondensed-Light;
+}
+
+.main-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mex {
+  background-image: url("../assets/bg_mexico_city.png");
+  background-position-x: 78%;
+}
+
+.dc {
+  background-image: url("../assets/bg_washington.png");
+}
+
+.container {
+  width: 50%;
+  background-size: cover;
+  padding-top: 18rem;
+  padding-bottom: 4rem;
+}
+
+.address-container {
+  padding-bottom: 10rem;
+}
+
+.city {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 0.2em;
+  color: rgb(255, 255, 255);
+}
+
+.contact-us {
+  background: rgb(255, 108, 0);
+  width: 100%;
+  display: flex;
+  color: rgb(254, 255, 255);
+  flex-flow: column;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+.sub-contact {
+  font-size: 1.5em;
+}
+
+.contact-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
