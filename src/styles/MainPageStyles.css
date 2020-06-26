@@ -1,12 +1,17 @@
 @font-face {
-  font-family: RobotoCondensed-Light;
+  font-family: RobotoCondensed-Regular;
   src: url("../assets/fonts/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../assets/fonts/Roboto-Bold.ttf");
 }
 
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: RobotoCondensed-Light;
+  font-family: RobotoCondensed-Regular;
 }
 
 .main-page {
@@ -37,7 +42,7 @@ body {
 .city {
   text-align: center;
   font-size: 3.2rem;
-  font-weight: bold;
+  font-family: Roboto-Bold;
   margin-top: 0.67em;
   margin-bottom: 0.2em;
   color: rgb(255, 255, 255);
@@ -60,6 +65,6 @@ body {
 
 .contact-text {
   font-size: 2.5rem;
-  font-weight: bold;
+  font-family: Roboto-Bold;
   margin: 0;
 }

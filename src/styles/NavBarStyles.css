@@ -23,3 +23,7 @@
   margin: 1em;
   font-size: 1.2em;
 }
+
+.active {
+  color: rgb(255, 108, 0);
+}
