@@ -65,7 +65,7 @@ const ContactForm = () => {
   const formData = () => {
     let fullName = `${form.name} ${form.lastName}`;
     let data = new FormData();
-    data.append("fullName", fullName);
+    data.append("fullname", fullName);
     data.append("email", form.email);
     data.append("phone", form.phone);
     data.append("comment", form.comment);
@@ -153,7 +153,12 @@ const ContactForm = () => {
       validateEmail() &&
       validatePhone()
     )
-      submitForm().then((res) => alert(res));
+      submitForm()
+        .then((res) => res.text())
+        .then((res) => {
+          let obj = JSON.parse(res);
+          alert(obj.Message);
+        });
   };
 
   return (
